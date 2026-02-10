@@ -1,8 +1,8 @@
 package com.axeno.tasktrackerapp.model;
 
 public enum TaskStatus {
-    TODO,
+    NotAssigned,
     InProgress,
-    Done,
-    InReview
+    InReview,
+    Done
 }
