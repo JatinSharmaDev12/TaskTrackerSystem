@@ -5,19 +5,26 @@ import java.util.List;
 public class Task extends BaseEntity{
 
 
-    private TaskStatus taskStatus=TaskStatus.NotAssigned;
-    private List<Employee> assignedEmployeesList;
+    private TaskStatus status;
+    private List<String> assignedIndividualIds;
+
+    public Task() {
+    }
 
 
     public Task(String id, String name, String description) {
         super(id, name, description);
+
     }
 
-    public TaskStatus getTaskStatus() {
-        return taskStatus;
+    public TaskStatus getStatus() {
+        return status;
     }
 
-    public void setTaskStatus(TaskStatus taskStatus) {
-        this.taskStatus = taskStatus;
+    public List<String> getAssignedIndividualIds() {
+        return assignedIndividualIds;
     }
+
+
+
 }

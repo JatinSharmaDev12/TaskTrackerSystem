@@ -1,0 +1,163 @@
+{
+  "programList": [
+    {
+      "id": "prog1",
+      "name": "Program Alpha",
+      "description": "First program in the tracker",
+      "projectList": [
+        {
+          "id": "proj1",
+          "name": "Project Apollo",
+          "description": "Apollo project for Program Alpha",
+          "tasksList": [
+            {
+              "id": "task1",
+              "name": "Design Database",
+              "description": "Design schema and ER diagram",
+              "taskStatus": "InProgress",
+              "assignedEmployeesList": [
+                {
+                  "id": "emp1",
+                  "name": "Alice",
+                  "description": "Senior Developer"
+                },
+                {
+                  "id": "emp2",
+                  "name": "Bob",
+                  "description": "Database Expert"
+                }
+              ]
+            },
+            {
+              "id": "task2",
+              "name": "API Implementation",
+              "description": "Develop REST APIs",
+              "taskStatus": "Pending",
+              "assignedEmployeesList": [
+                {
+                  "id": "emp3",
+                  "name": "Charlie",
+                  "description": "Backend Developer"
+                },
+                {
+                  "id": "emp1",
+                  "name": "Alice",
+                  "description": "Senior Developer"
+                }
+              ]
+            },
+            {
+              "id": "task3",
+              "name": "Frontend Design",
+              "description": "Create UI for the project",
+              "taskStatus": "Done",
+              "assignedEmployeesList": [
+                {
+                  "id": "int1",
+                  "name": "David",
+                  "description": "Frontend Intern"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "proj2",
+          "name": "Project Zeus",
+          "description": "Zeus project for Program Alpha",
+          "tasksList": [
+            {
+              "id": "task4",
+              "name": "Requirement Analysis",
+              "description": "Collect requirements from client",
+              "taskStatus": "InReview",
+              "assignedEmployeesList": [
+                {
+                  "id": "emp2",
+                  "name": "Bob",
+                  "description": "Database Expert"
+                }
+              ]
+            },
+            {
+              "id": "task5",
+              "name": "Integration Testing",
+              "description": "Test all modules",
+              "taskStatus": "Pending",
+              "assignedEmployeesList": [
+                {
+                  "id": "emp3",
+                  "name": "Charlie",
+                  "description": "Backend Developer"
+                },
+                {
+                  "id": "int1",
+                  "name": "David",
+                  "description": "Frontend Intern"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prog2",
+      "name": "Program Beta",
+      "description": "Second program in the tracker",
+      "projectList": [
+        {
+          "id": "proj3",
+          "name": "Project Hermes",
+          "description": "Hermes project for Program Beta",
+          "tasksList": [
+            {
+              "id": "task6",
+              "name": "Setup CI/CD",
+              "description": "Configure Jenkins pipeline",
+              "taskStatus": "InProgress",
+              "assignedEmployeesList": [
+                {
+                  "id": "emp1",
+                  "name": "Alice",
+                  "description": "Senior Developer"
+                },
+                {
+                  "id": "emp4",
+                  "name": "Eve",
+                  "description": "DevOps Engineer"
+                }
+              ]
+            },
+            {
+              "id": "task7",
+              "name": "UI Enhancement",
+              "description": "Improve UI based on feedback",
+              "taskStatus": "Done",
+              "assignedEmployeesList": [
+                {
+                  "id": "int1",
+                  "name": "David",
+                  "description": "Frontend Intern"
+                }
+              ]
+            },
+            {
+              "id": "task8",
+              "name": "Security Audit",
+              "description": "Penetration testing and code review",
+              "taskStatus": "Pending",
+              "assignedEmployeesList": [
+                {
+                  "id": "emp2",
+                  "name": "Bob",
+                  "description": "Database Expert"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

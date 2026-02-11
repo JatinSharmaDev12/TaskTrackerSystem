@@ -6,6 +6,7 @@ public abstract class BaseEntity {
     private String name;
     private String description;
 
+    public BaseEntity(){};
     public BaseEntity(String id, String name, String description) {
         this.id = id;
         this.name = name;
@@ -23,4 +24,5 @@ public abstract class BaseEntity {
     public String getDescription() {
         return description;
     }
+
 }
