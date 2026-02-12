@@ -1,6 +1,5 @@
 package com.axeno.tasktrackerapp.controller;
 
-import com.axeno.tasktrackerapp.config.ConfigurationHandler;
 import com.axeno.tasktrackerapp.model.Program;
 import com.axeno.tasktrackerapp.model.Project;
 import com.axeno.tasktrackerapp.service.QueryService;

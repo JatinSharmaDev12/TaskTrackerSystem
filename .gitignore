@@ -1,0 +1,33 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code (if used)
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+#FOlders
+target/
+Files/
