@@ -8,4 +8,20 @@ import java.util.List;
 public class ImportDataWrapper {
     private List<Individual> individuals;
     private List<Program> programs;
+
+    public List<Individual> getIndividuals() {
+        return individuals;
+    }
+
+    public void setIndividuals(List<Individual> individuals) {
+        this.individuals = individuals;
+    }
+
+    public List<Program> getPrograms() {
+        return programs;
+    }
+
+    public void setPrograms(List<Program> programs) {
+        this.programs = programs;
+    }
 }
