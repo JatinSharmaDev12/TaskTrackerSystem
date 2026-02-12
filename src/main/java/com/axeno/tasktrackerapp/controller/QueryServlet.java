@@ -1,5 +1,6 @@
 package com.axeno.tasktrackerapp.controller;
 
+import com.axeno.tasktrackerapp.config.ConfigurationHandler;
 import com.axeno.tasktrackerapp.model.Program;
 import com.axeno.tasktrackerapp.model.Project;
 import com.axeno.tasktrackerapp.service.QueryService;
@@ -22,8 +23,8 @@ public class QueryServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String pathInfo = request.getPathInfo();
-        response.setContentType("application/json");
-        response.setCharacterEncoding("UTF-8");
+       response.setContentType("application/json");
+
 
         try {
             if (pathInfo == null || pathInfo.equals("/")) {
@@ -96,7 +97,6 @@ public class QueryServlet extends HttpServlet {
 
         } catch (Exception e) {
             response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
-            e.printStackTrace();
             response.getWriter().write("{\"error\": \"" + e.getMessage() + "\"}");
         }
     }
